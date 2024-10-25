@@ -34,3 +34,97 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+# HTML 
+# Important HTML Tags
+
+## Semantic HTML Elements
+
+- `<section></section>`  
+  Defines a thematic grouping of content, typically with a heading. Used to separate different sections of a document, enhancing the structure and accessibility.
+
+- `<main></main>`  
+  Represents the main content of a document, excluding headers, footers, and sidebars. It helps search engines and assistive technologies identify the primary content of the page.
+
+- `<header></header>`  
+  Contains introductory content or navigational links, typically at the top of the page or section.
+
+- `<footer></footer>`  
+  Represents the footer for a document or section, usually containing author information, copyright, and links.
+
+- `<article></article>`  
+  Represents a self-contained piece of content, such as a news article or blog post, that can be independently distributed or reused.
+
+- `<aside></aside>`  
+  Contains content that is tangentially related to the main content, like sidebars or pull quotes.
+
+- `<nav></nav>`  
+  Used for navigation links, helping users find their way around the site.
+
+## Text and Inline Elements
+
+- `<h1></h1>` to `<h6></h6>`  
+  Defines headings, with `<h1>` being the most important and `<h6>` the least. They create a hierarchical structure for the content.
+
+- `<p></p>`  
+  Represents a paragraph of text, used to structure written content.
+
+- `<span></span>`  
+  An inline container for text or other inline elements, useful for styling a portion of text.
+
+- `<strong></strong>`  
+  Indicates strong importance; typically displayed in bold.
+
+- `<em></em>`  
+  Denotes emphasized text, usually rendered in italics.
+
+## Multimedia Elements
+
+- `<img>`  
+  Embeds images; requires the `src` attribute for the image URL and `alt` for accessibility.
+
+- `<audio></audio>`  
+  Used to embed audio content, supporting various formats.
+
+- `<video></video>`  
+  Used to embed video content, supporting multiple formats and controls.
+
+- `<iframe></iframe>`  
+  Embeds another HTML page within the current page, often used for maps or external content.
+
+## List Elements
+
+- `<ul></ul>`  
+  Defines an unordered list, typically displayed with bullet points.
+
+- `<ol></ol>`  
+  Defines an ordered list, typically displayed with numbers.
+
+- `<li></li>`  
+  Represents a list item within `<ul>` or `<ol>`.
+
+## Table Elements
+
+- `<table></table>`  
+  Defines a table structure.
+
+- `<tr></tr>`  
+  Represents a table row.
+
+- `<td></td>`  
+  Defines a cell within a table row.
+
+- `<th></th>`  
+  Represents a header cell in a table, usually displayed in bold and centered.
+
+## Form Elements
+
+- `<form></form>`  
+  Defines a form for user input, encapsulating form controls.
+
+- `<input>`  
+  Represents a variety of input fields (text, password, checkbox, radio, etc.); type defined by the `type` attribute.
+
+- `<label></label>`  
+  Associates a text label with a form element, improving acces
