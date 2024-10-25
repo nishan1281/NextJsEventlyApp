@@ -1,37 +1,40 @@
-# Node modules
-node_modules/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Build output
-.next/
-out/
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
-# Log files
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Dependency directories
-jspm_packages/
+# env files (can opt-in for commiting if needed)
+.env*
 
-# Environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# vercel
+.vercel
 
-# Next.js cache
-.cache/
-
-# Vercel platform
-.vercel/
-
-# IDE or editor specific files
-.idea/
-.vscode/
-*.sublime-workspace
-*.sublime-project
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# typescript
+*.tsbuildinfo
+next-env.d.ts
